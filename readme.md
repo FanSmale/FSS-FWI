@@ -1,4 +1,4 @@
-Double-resolution full waveform inversion under self-paced learning
+# Double-resolution full waveform inversion under self-paced learning
 
 The advancement of image processing brings light to deep learning full waveform inversion (DL-FWI) of seismic data.
 Existing DL-FWI approaches often suffer from the lack of interpretability and slow converge due to single network, and network parameter fluctuate due to static training control.
