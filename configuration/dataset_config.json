@@ -1,0 +1,35 @@
+{
+	"CurveVelA":{
+		"shot_num": 7,
+		"seismic_shape":[500, 7, 1000, 70],
+		"vmodel_shape":[500, 1, 70, 70],
+		"train_size":24000,
+		"test_size":6000,
+        "data_volume":500,
+		"max_velocity":4500,
+		"min_velocity":1500,
+        "readtxt_dir":"./configuration/cva_base.txt"
+	},
+	"CurveFaultA":{
+		"shot_num": 7,
+		"seismic_shape":[500, 7, 1000, 70],
+		"vmodel_shape":[500, 1, 70, 70],
+		"train_size":48000,
+		"test_size":6000,
+        "data_volume":500,
+		"max_velocity":4500,
+		"min_velocity":1500,
+        "readtxt_dir":"./configuration/cfa_base.txt"
+	},
+	"FlatFaultA":{
+		"shot_num": 7,
+		"seismic_shape":[500, 7, 1000, 70],
+		"vmodel_shape":[500, 1, 70, 70],
+		"train_size":48000,
+		"test_size":6000,
+        "data_volume":500,
+		"max_velocity":4500,
+		"min_velocity":1500,
+        "readtxt_dir":"./configuration/ffa_base.txt"
+	}
+}

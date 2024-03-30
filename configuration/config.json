@@ -1,0 +1,62 @@
+{
+	"ours":{
+		"common":{
+			"display_step":2,
+			"classes":1,
+            "root_dir":"./",
+			"data_dir":"./data/",
+			"results_dir":"./results/",
+			"models_dir":"./models/"
+		},
+		"CurveVelA":{
+			"shot_num": 7,
+			"input_dim":[1000, 70],
+			"output_dim":[70, 70],
+			"train_size":5000,
+            "train_volume":500,
+			"test_size":1000,
+            "test_volume":500,
+			"epochs":50,
+			"train_batch_size":16,
+			"test_batch_size":5,
+			"learning_rate":0.001
+		},
+		"FlatFaultA":{
+			"shot_num": 7,
+			"input_dim":[1000, 70],
+			"output_dim":[70, 70],
+			"train_size":5000,
+            "train_volume":500,
+			"test_size":1000,
+            "test_volume":500,
+			"epochs":50,
+			"train_batch_size":50,
+			"test_batch_size":5,
+			"learning_rate":0.001
+		},
+		"CurveFaultA":{
+			"shot_num": 7,
+			"input_dim":[1000, 70],
+			"output_dim":[70, 70],
+			"train_size":5000,
+            "train_volume":500,
+			"test_size":1000,
+            "test_volume":500,
+			"epochs":50,
+			"train_batch_size":50,
+			"test_batch_size":5,
+			"learning_rate":0.001
+		},
+		"ForwardSettings for OpenFWI":{
+			"dx": 10,
+			"dz": 10,
+            "sz": 0,
+			"full_sx_list": [5, 15, 25, 35, 45, 55, 65],
+			"lite_sx_list": [],
+			"dt": 0.001,
+			"f0": 25,
+            "nt":1000,
+			"source_time": 0.08
+		}
+	}
+}
