@@ -21,15 +21,29 @@ Specifically, the user is required to select the command in the test file: "-n {
 Meanwhile, the user needs to set multi_or_single to 0 and execute the function temp_tester.save_lowres_inversion_results().  
 In this way, the low-resolution velocity model output by LResInvNet will be automatically saved in the corresponding dataset in the data folder.  
 
-Complete folder example:
+Complete folder example:  
 |data  
-|==CurveFaultA  
-|====cvmodel1.npy  
-|====cvmodel2.npy  
-|==CurveVelA  
-|==FlatFaultA  
-|==create_contour_vmodel.py  
-|==create_dir_txt.py  
+|===CurveFaultA  
+|=====cvmodel1.npy  
+|=====cvmodel2.npy  
+|=====...
+|=====cvmodel108.npy
+|=====lvmodel1.npy  
+|=====lvmodel2.npy  
+|=====...
+|=====lvmodel108.npy  
+|=====seismic1.npy  
+|=====seismic2.npy  
+|=====...
+|=====seismic108.npy  
+|=====vmodel1.npy  
+|=====vmodel2.npy  
+|=====...
+|=====vmodel108.npy  
+|===CurveVelA  
+|===FlatFaultA  
+|===create_contour_vmodel.py  
+|===create_dir_txt.py  
 
 ---
 
@@ -37,6 +51,10 @@ Finally, the configuration folder records the arrangement of the training and te
 "_base" represents the configuration files of InversionNet and VelocityGAN.
 "_cont" represents the configuration file of DDNet70.
 "_lres" represents the configuration files of LResInvNet and DenseInvNet.
+
+---
+
+When all the data is ready, the size of the data folder may reach 259G, so please pay attention to the hard disk space allocation.
 
 
 
