@@ -21,6 +21,15 @@ Specifically, the user is required to select the command in the test file: "-n {
 Meanwhile, the user needs to set multi_or_single to 0 and execute the function temp_tester.save_lowres_inversion_results().
 In this way, the low-resolution velocity model output by LResInvNet will be automatically saved in the corresponding dataset in the data folder.
 
+Complete folder example:
+>data
+>>CurveFaultA
+>>>cvmodel1.npy
+>>>cvmodel2.npy
+>>CurveVelA
+>>FlatFaultA
+>>create_contour_vmodel.py
+>>create_dir_txt.py
 ---
 
 Finally, the configuration folder records the arrangement of the training and test sets.
