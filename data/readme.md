@@ -27,7 +27,7 @@ Complete folder example:
 |=====cvmodel1.npy  
 |=====cvmodel2.npy  
 |=====...  
-|=====cvmodel108.npy
+|=====cvmodel108.npy  
 |=====lvmodel1.npy  
 |=====lvmodel2.npy  
 |=====...  
