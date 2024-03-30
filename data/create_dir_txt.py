@@ -2,7 +2,7 @@ import os
 import re
 import numpy as np
 
-# Users do not need to run this .py file themselves, unless they want to add new training sets and test sets
+# Users do not need to run this .py file themselves, unless they want to add new training and testing data
 # The purpose of this file is to generate a .txt list file for training and testing guidance.
 # These .txt list files are located in the "./configuration" folder and have three suffixes: "_base", "_cont", "_lres".
 # "_base" indicates that a training sample consists of {seismic records - velocity model}
