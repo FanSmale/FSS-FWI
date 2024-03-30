@@ -22,14 +22,14 @@ Meanwhile, the user needs to set multi_or_single to 0 and execute the function t
 In this way, the low-resolution velocity model output by LResInvNet will be automatically saved in the corresponding dataset in the data folder.
 
 Complete folder example:
-|data
-|==CurveFaultA
-|====cvmodel1.npy
-|====cvmodel2.npy
-|==CurveVelA
-|==FlatFaultA
-|==create_contour_vmodel.py
-|==create_dir_txt.py
+|data\\
+|==CurveFaultA\\
+|====cvmodel1.npy\\
+|====cvmodel2.npy\\
+|==CurveVelA\\
+|==FlatFaultA\\
+|==create_contour_vmodel.py\\
+|==create_dir_txt.py\\
 
 ---
 
