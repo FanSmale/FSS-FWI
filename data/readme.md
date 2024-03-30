@@ -25,6 +25,7 @@ Complete folder example:
 >data
 >>CurveFaultA
 >>>cvmodel1.npy
+
 >>>cvmodel2.npy
 
 >>CurveVelA
