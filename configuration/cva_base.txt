@@ -1,63 +1,63 @@
 sv
 train
-.\data\CurveVelA\seismic1.npy .\data\CurveVelA\vmodel1.npy
-.\data\CurveVelA\seismic2.npy .\data\CurveVelA\vmodel2.npy
-.\data\CurveVelA\seismic3.npy .\data\CurveVelA\vmodel3.npy
-.\data\CurveVelA\seismic4.npy .\data\CurveVelA\vmodel4.npy
-.\data\CurveVelA\seismic5.npy .\data\CurveVelA\vmodel5.npy
-.\data\CurveVelA\seismic6.npy .\data\CurveVelA\vmodel6.npy
-.\data\CurveVelA\seismic7.npy .\data\CurveVelA\vmodel7.npy
-.\data\CurveVelA\seismic8.npy .\data\CurveVelA\vmodel8.npy
-.\data\CurveVelA\seismic9.npy .\data\CurveVelA\vmodel9.npy
-.\data\CurveVelA\seismic10.npy .\data\CurveVelA\vmodel10.npy
-.\data\CurveVelA\seismic11.npy .\data\CurveVelA\vmodel11.npy
-.\data\CurveVelA\seismic12.npy .\data\CurveVelA\vmodel12.npy
-.\data\CurveVelA\seismic13.npy .\data\CurveVelA\vmodel13.npy
-.\data\CurveVelA\seismic14.npy .\data\CurveVelA\vmodel14.npy
-.\data\CurveVelA\seismic15.npy .\data\CurveVelA\vmodel15.npy
-.\data\CurveVelA\seismic16.npy .\data\CurveVelA\vmodel16.npy
-.\data\CurveVelA\seismic17.npy .\data\CurveVelA\vmodel17.npy
-.\data\CurveVelA\seismic18.npy .\data\CurveVelA\vmodel18.npy
-.\data\CurveVelA\seismic19.npy .\data\CurveVelA\vmodel19.npy
-.\data\CurveVelA\seismic20.npy .\data\CurveVelA\vmodel20.npy
-.\data\CurveVelA\seismic21.npy .\data\CurveVelA\vmodel21.npy
-.\data\CurveVelA\seismic22.npy .\data\CurveVelA\vmodel22.npy
-.\data\CurveVelA\seismic23.npy .\data\CurveVelA\vmodel23.npy
-.\data\CurveVelA\seismic24.npy .\data\CurveVelA\vmodel24.npy
-.\data\CurveVelA\seismic25.npy .\data\CurveVelA\vmodel25.npy
-.\data\CurveVelA\seismic26.npy .\data\CurveVelA\vmodel26.npy
-.\data\CurveVelA\seismic27.npy .\data\CurveVelA\vmodel27.npy
-.\data\CurveVelA\seismic28.npy .\data\CurveVelA\vmodel28.npy
-.\data\CurveVelA\seismic29.npy .\data\CurveVelA\vmodel29.npy
-.\data\CurveVelA\seismic30.npy .\data\CurveVelA\vmodel30.npy
-.\data\CurveVelA\seismic31.npy .\data\CurveVelA\vmodel31.npy
-.\data\CurveVelA\seismic32.npy .\data\CurveVelA\vmodel32.npy
-.\data\CurveVelA\seismic33.npy .\data\CurveVelA\vmodel33.npy
-.\data\CurveVelA\seismic34.npy .\data\CurveVelA\vmodel34.npy
-.\data\CurveVelA\seismic35.npy .\data\CurveVelA\vmodel35.npy
-.\data\CurveVelA\seismic36.npy .\data\CurveVelA\vmodel36.npy
-.\data\CurveVelA\seismic37.npy .\data\CurveVelA\vmodel37.npy
-.\data\CurveVelA\seismic38.npy .\data\CurveVelA\vmodel38.npy
-.\data\CurveVelA\seismic39.npy .\data\CurveVelA\vmodel39.npy
-.\data\CurveVelA\seismic40.npy .\data\CurveVelA\vmodel40.npy
-.\data\CurveVelA\seismic41.npy .\data\CurveVelA\vmodel41.npy
-.\data\CurveVelA\seismic42.npy .\data\CurveVelA\vmodel42.npy
-.\data\CurveVelA\seismic43.npy .\data\CurveVelA\vmodel43.npy
-.\data\CurveVelA\seismic44.npy .\data\CurveVelA\vmodel44.npy
-.\data\CurveVelA\seismic45.npy .\data\CurveVelA\vmodel45.npy
-.\data\CurveVelA\seismic46.npy .\data\CurveVelA\vmodel46.npy
-.\data\CurveVelA\seismic47.npy .\data\CurveVelA\vmodel47.npy
-.\data\CurveVelA\seismic48.npy .\data\CurveVelA\vmodel48.npy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic1L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel1L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic2L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel2L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic3L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel3L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic4L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel4L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic5L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel5L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic6L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel6L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic7L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel7L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic8L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel8L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic9L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel9L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic10L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel10L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic11L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel11L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic12L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel12L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic13L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel13L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic14L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel14L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic15L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel15L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic16L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel16L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic17L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel17L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic18L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel18L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic19L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel19L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic20L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel20L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic21L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel21L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic22L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel22L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic23L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel23L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic24L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel24L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic25L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel25L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic26L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel26L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic27L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel27L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic28L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel28L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic29L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel29L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic30L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel30L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic31L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel31L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic32L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel32L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic33L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel33L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic34L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel34L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic35L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel35L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic36L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel36L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic37L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel37L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic38L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel38L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic39L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel39L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic40L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel40L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic41L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel41L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic42L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel42L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic43L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel43L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic44L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel44L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic45L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel45L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic46L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel46L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic47L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel47L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic48L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel48L:\My Paper Code\double_res_FWInpy
 test
-.\data\CurveVelA\seismic49.npy .\data\CurveVelA\vmodel49.npy
-.\data\CurveVelA\seismic50.npy .\data\CurveVelA\vmodel50.npy
-.\data\CurveVelA\seismic51.npy .\data\CurveVelA\vmodel51.npy
-.\data\CurveVelA\seismic52.npy .\data\CurveVelA\vmodel52.npy
-.\data\CurveVelA\seismic53.npy .\data\CurveVelA\vmodel53.npy
-.\data\CurveVelA\seismic54.npy .\data\CurveVelA\vmodel54.npy
-.\data\CurveVelA\seismic55.npy .\data\CurveVelA\vmodel55.npy
-.\data\CurveVelA\seismic56.npy .\data\CurveVelA\vmodel56.npy
-.\data\CurveVelA\seismic57.npy .\data\CurveVelA\vmodel57.npy
-.\data\CurveVelA\seismic58.npy .\data\CurveVelA\vmodel58.npy
-.\data\CurveVelA\seismic59.npy .\data\CurveVelA\vmodel59.npy
-.\data\CurveVelA\seismic60.npy .\data\CurveVelA\vmodel60.npy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic49L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel49L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic50L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel50L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic51L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel51L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic52L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel52L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic53L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel53L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic54L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel54L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic55L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel55L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic56L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel56L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic57L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel57L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic58L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel58L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic59L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel59L:\My Paper Code\double_res_FWInpy
+L:\My Paper Code\double_res_FWI\data\CurveVelA\seismic60L:\My Paper Code\double_res_FWInpy+L:\My Paper Code\double_res_FWI\data\CurveVelA\vmodel60L:\My Paper Code\double_res_FWInpy

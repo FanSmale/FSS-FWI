@@ -1,9 +1,9 @@
 # Notice
 
 the configuration folder records the arrangement of the training and test sets.  
-"_base" represents the configuration files of InversionNet and VelocityGAN.  
+"_base" represents the configuration files of InversionNet, VelocityGAN and SeisDeepNET70.  
 "_cont" represents the configuration file of DDNet70.  
-"_lres" represents the configuration files of LResInvNet and DenseInvNet.  
+"_lres" represents the configuration files of LInvNet and DenseInvNet.  
 
 "dataset_config.json" records information about different datasets, including dimension information of seismic records and velocity models, the number of training and test data, etc.  
 

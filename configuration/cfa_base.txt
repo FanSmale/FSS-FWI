@@ -1,111 +1,111 @@
 sv
 train
-.\data\CurveFaultA\seismic1.npy .\data\CurveFaultA\vmodel1.npy
-.\data\CurveFaultA\seismic2.npy .\data\CurveFaultA\vmodel2.npy
-.\data\CurveFaultA\seismic3.npy .\data\CurveFaultA\vmodel3.npy
-.\data\CurveFaultA\seismic4.npy .\data\CurveFaultA\vmodel4.npy
-.\data\CurveFaultA\seismic5.npy .\data\CurveFaultA\vmodel5.npy
-.\data\CurveFaultA\seismic6.npy .\data\CurveFaultA\vmodel6.npy
-.\data\CurveFaultA\seismic7.npy .\data\CurveFaultA\vmodel7.npy
-.\data\CurveFaultA\seismic8.npy .\data\CurveFaultA\vmodel8.npy
-.\data\CurveFaultA\seismic9.npy .\data\CurveFaultA\vmodel9.npy
-.\data\CurveFaultA\seismic10.npy .\data\CurveFaultA\vmodel10.npy
-.\data\CurveFaultA\seismic11.npy .\data\CurveFaultA\vmodel11.npy
-.\data\CurveFaultA\seismic12.npy .\data\CurveFaultA\vmodel12.npy
-.\data\CurveFaultA\seismic13.npy .\data\CurveFaultA\vmodel13.npy
-.\data\CurveFaultA\seismic14.npy .\data\CurveFaultA\vmodel14.npy
-.\data\CurveFaultA\seismic15.npy .\data\CurveFaultA\vmodel15.npy
-.\data\CurveFaultA\seismic16.npy .\data\CurveFaultA\vmodel16.npy
-.\data\CurveFaultA\seismic17.npy .\data\CurveFaultA\vmodel17.npy
-.\data\CurveFaultA\seismic18.npy .\data\CurveFaultA\vmodel18.npy
-.\data\CurveFaultA\seismic19.npy .\data\CurveFaultA\vmodel19.npy
-.\data\CurveFaultA\seismic20.npy .\data\CurveFaultA\vmodel20.npy
-.\data\CurveFaultA\seismic21.npy .\data\CurveFaultA\vmodel21.npy
-.\data\CurveFaultA\seismic22.npy .\data\CurveFaultA\vmodel22.npy
-.\data\CurveFaultA\seismic23.npy .\data\CurveFaultA\vmodel23.npy
-.\data\CurveFaultA\seismic24.npy .\data\CurveFaultA\vmodel24.npy
-.\data\CurveFaultA\seismic25.npy .\data\CurveFaultA\vmodel25.npy
-.\data\CurveFaultA\seismic26.npy .\data\CurveFaultA\vmodel26.npy
-.\data\CurveFaultA\seismic27.npy .\data\CurveFaultA\vmodel27.npy
-.\data\CurveFaultA\seismic28.npy .\data\CurveFaultA\vmodel28.npy
-.\data\CurveFaultA\seismic29.npy .\data\CurveFaultA\vmodel29.npy
-.\data\CurveFaultA\seismic30.npy .\data\CurveFaultA\vmodel30.npy
-.\data\CurveFaultA\seismic31.npy .\data\CurveFaultA\vmodel31.npy
-.\data\CurveFaultA\seismic32.npy .\data\CurveFaultA\vmodel32.npy
-.\data\CurveFaultA\seismic33.npy .\data\CurveFaultA\vmodel33.npy
-.\data\CurveFaultA\seismic34.npy .\data\CurveFaultA\vmodel34.npy
-.\data\CurveFaultA\seismic35.npy .\data\CurveFaultA\vmodel35.npy
-.\data\CurveFaultA\seismic36.npy .\data\CurveFaultA\vmodel36.npy
-.\data\CurveFaultA\seismic37.npy .\data\CurveFaultA\vmodel37.npy
-.\data\CurveFaultA\seismic38.npy .\data\CurveFaultA\vmodel38.npy
-.\data\CurveFaultA\seismic39.npy .\data\CurveFaultA\vmodel39.npy
-.\data\CurveFaultA\seismic40.npy .\data\CurveFaultA\vmodel40.npy
-.\data\CurveFaultA\seismic41.npy .\data\CurveFaultA\vmodel41.npy
-.\data\CurveFaultA\seismic42.npy .\data\CurveFaultA\vmodel42.npy
-.\data\CurveFaultA\seismic43.npy .\data\CurveFaultA\vmodel43.npy
-.\data\CurveFaultA\seismic44.npy .\data\CurveFaultA\vmodel44.npy
-.\data\CurveFaultA\seismic45.npy .\data\CurveFaultA\vmodel45.npy
-.\data\CurveFaultA\seismic46.npy .\data\CurveFaultA\vmodel46.npy
-.\data\CurveFaultA\seismic47.npy .\data\CurveFaultA\vmodel47.npy
-.\data\CurveFaultA\seismic48.npy .\data\CurveFaultA\vmodel48.npy
-.\data\CurveFaultA\seismic49.npy .\data\CurveFaultA\vmodel49.npy
-.\data\CurveFaultA\seismic50.npy .\data\CurveFaultA\vmodel50.npy
-.\data\CurveFaultA\seismic51.npy .\data\CurveFaultA\vmodel51.npy
-.\data\CurveFaultA\seismic52.npy .\data\CurveFaultA\vmodel52.npy
-.\data\CurveFaultA\seismic53.npy .\data\CurveFaultA\vmodel53.npy
-.\data\CurveFaultA\seismic54.npy .\data\CurveFaultA\vmodel54.npy
-.\data\CurveFaultA\seismic55.npy .\data\CurveFaultA\vmodel55.npy
-.\data\CurveFaultA\seismic56.npy .\data\CurveFaultA\vmodel56.npy
-.\data\CurveFaultA\seismic57.npy .\data\CurveFaultA\vmodel57.npy
-.\data\CurveFaultA\seismic58.npy .\data\CurveFaultA\vmodel58.npy
-.\data\CurveFaultA\seismic59.npy .\data\CurveFaultA\vmodel59.npy
-.\data\CurveFaultA\seismic60.npy .\data\CurveFaultA\vmodel60.npy
-.\data\CurveFaultA\seismic61.npy .\data\CurveFaultA\vmodel61.npy
-.\data\CurveFaultA\seismic62.npy .\data\CurveFaultA\vmodel62.npy
-.\data\CurveFaultA\seismic63.npy .\data\CurveFaultA\vmodel63.npy
-.\data\CurveFaultA\seismic64.npy .\data\CurveFaultA\vmodel64.npy
-.\data\CurveFaultA\seismic65.npy .\data\CurveFaultA\vmodel65.npy
-.\data\CurveFaultA\seismic66.npy .\data\CurveFaultA\vmodel66.npy
-.\data\CurveFaultA\seismic67.npy .\data\CurveFaultA\vmodel67.npy
-.\data\CurveFaultA\seismic68.npy .\data\CurveFaultA\vmodel68.npy
-.\data\CurveFaultA\seismic69.npy .\data\CurveFaultA\vmodel69.npy
-.\data\CurveFaultA\seismic70.npy .\data\CurveFaultA\vmodel70.npy
-.\data\CurveFaultA\seismic71.npy .\data\CurveFaultA\vmodel71.npy
-.\data\CurveFaultA\seismic72.npy .\data\CurveFaultA\vmodel72.npy
-.\data\CurveFaultA\seismic73.npy .\data\CurveFaultA\vmodel73.npy
-.\data\CurveFaultA\seismic74.npy .\data\CurveFaultA\vmodel74.npy
-.\data\CurveFaultA\seismic75.npy .\data\CurveFaultA\vmodel75.npy
-.\data\CurveFaultA\seismic76.npy .\data\CurveFaultA\vmodel76.npy
-.\data\CurveFaultA\seismic77.npy .\data\CurveFaultA\vmodel77.npy
-.\data\CurveFaultA\seismic78.npy .\data\CurveFaultA\vmodel78.npy
-.\data\CurveFaultA\seismic79.npy .\data\CurveFaultA\vmodel79.npy
-.\data\CurveFaultA\seismic80.npy .\data\CurveFaultA\vmodel80.npy
-.\data\CurveFaultA\seismic81.npy .\data\CurveFaultA\vmodel81.npy
-.\data\CurveFaultA\seismic82.npy .\data\CurveFaultA\vmodel82.npy
-.\data\CurveFaultA\seismic83.npy .\data\CurveFaultA\vmodel83.npy
-.\data\CurveFaultA\seismic84.npy .\data\CurveFaultA\vmodel84.npy
-.\data\CurveFaultA\seismic85.npy .\data\CurveFaultA\vmodel85.npy
-.\data\CurveFaultA\seismic86.npy .\data\CurveFaultA\vmodel86.npy
-.\data\CurveFaultA\seismic87.npy .\data\CurveFaultA\vmodel87.npy
-.\data\CurveFaultA\seismic88.npy .\data\CurveFaultA\vmodel88.npy
-.\data\CurveFaultA\seismic89.npy .\data\CurveFaultA\vmodel89.npy
-.\data\CurveFaultA\seismic90.npy .\data\CurveFaultA\vmodel90.npy
-.\data\CurveFaultA\seismic91.npy .\data\CurveFaultA\vmodel91.npy
-.\data\CurveFaultA\seismic92.npy .\data\CurveFaultA\vmodel92.npy
-.\data\CurveFaultA\seismic93.npy .\data\CurveFaultA\vmodel93.npy
-.\data\CurveFaultA\seismic94.npy .\data\CurveFaultA\vmodel94.npy
-.\data\CurveFaultA\seismic95.npy .\data\CurveFaultA\vmodel95.npy
-.\data\CurveFaultA\seismic96.npy .\data\CurveFaultA\vmodel96.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic1.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel1.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic2.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel2.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic3.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel3.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic4.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel4.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic5.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel5.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic6.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel6.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic7.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel7.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic8.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel8.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic9.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel9.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic10.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel10.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic11.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel11.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic12.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel12.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic13.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel13.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic14.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel14.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic15.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel15.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic16.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel16.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic17.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel17.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic18.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel18.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic19.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel19.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic20.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel20.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic21.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel21.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic22.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel22.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic23.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel23.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic24.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel24.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic25.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel25.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic26.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel26.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic27.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel27.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic28.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel28.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic29.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel29.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic30.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel30.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic31.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel31.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic32.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel32.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic33.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel33.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic34.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel34.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic35.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel35.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic36.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel36.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic37.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel37.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic38.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel38.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic39.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel39.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic40.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel40.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic41.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel41.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic42.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel42.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic43.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel43.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic44.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel44.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic45.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel45.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic46.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel46.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic47.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel47.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic48.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel48.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic49.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel49.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic50.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel50.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic51.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel51.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic52.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel52.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic53.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel53.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic54.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel54.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic55.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel55.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic56.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel56.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic57.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel57.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic58.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel58.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic59.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel59.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic60.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel60.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic61.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel61.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic62.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel62.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic63.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel63.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic64.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel64.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic65.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel65.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic66.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel66.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic67.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel67.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic68.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel68.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic69.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel69.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic70.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel70.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic71.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel71.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic72.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel72.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic73.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel73.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic74.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel74.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic75.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel75.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic76.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel76.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic77.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel77.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic78.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel78.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic79.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel79.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic80.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel80.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic81.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel81.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic82.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel82.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic83.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel83.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic84.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel84.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic85.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel85.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic86.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel86.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic87.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel87.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic88.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel88.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic89.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel89.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic90.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel90.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic91.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel91.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic92.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel92.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic93.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel93.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic94.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel94.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic95.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel95.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic96.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel96.npy
 test
-.\data\CurveFaultA\seismic97.npy .\data\CurveFaultA\vmodel97.npy
-.\data\CurveFaultA\seismic98.npy .\data\CurveFaultA\vmodel98.npy
-.\data\CurveFaultA\seismic99.npy .\data\CurveFaultA\vmodel99.npy
-.\data\CurveFaultA\seismic100.npy .\data\CurveFaultA\vmodel100.npy
-.\data\CurveFaultA\seismic101.npy .\data\CurveFaultA\vmodel101.npy
-.\data\CurveFaultA\seismic102.npy .\data\CurveFaultA\vmodel102.npy
-.\data\CurveFaultA\seismic103.npy .\data\CurveFaultA\vmodel103.npy
-.\data\CurveFaultA\seismic104.npy .\data\CurveFaultA\vmodel104.npy
-.\data\CurveFaultA\seismic105.npy .\data\CurveFaultA\vmodel105.npy
-.\data\CurveFaultA\seismic106.npy .\data\CurveFaultA\vmodel106.npy
-.\data\CurveFaultA\seismic107.npy .\data\CurveFaultA\vmodel107.npy
-.\data\CurveFaultA\seismic108.npy .\data\CurveFaultA\vmodel108.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic97.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel97.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic98.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel98.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic99.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel99.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic100.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel100.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic101.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel101.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic102.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel102.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic103.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel103.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic104.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel104.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic105.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel105.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic106.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel106.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic107.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel107.npy
+L:\My Paper Code\double_res_FWI\data\CurveFaultA\seismic108.npy+L:\My Paper Code\double_res_FWI\data\CurveFaultA\vmodel108.npy

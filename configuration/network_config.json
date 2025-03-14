@@ -37,7 +37,7 @@
         "n_critic": 5
       }
     },
-    "LResInvNet":{
+    "LInvNet":{
       "common":{
         "learning_rate":0.001,
         "train_batch_size":64,
@@ -69,17 +69,20 @@
       "epoch_checkpoints_list":{
         "CurveVelA":[0, 40, 70, 85],
         "CurveFaultA":[0, 40, 70, 85],
-        "FlatFaultA":[0, 40, 70, 85]
+        "FlatFaultA":[0, 40, 70, 85],
+        "Marmousi2":[0, 40, 70, 85]
       },
       "age_param_list":{
         "CurveVelA":[-1, -1, 1, 2],
         "CurveFaultA":[-1, -1, 1, 2],
-        "FlatFaultA":[-1, -1, 1, 2]
+        "FlatFaultA":[-1, -1, 1, 2],
+        "Marmousi2":[-1, -1, 1, 2]
       },
       "param_list":{
         "CurveVelA":  ["0.5_0.5_0.0", "1.0_0.1_0.0", "1.0_0.01_1.0", "0.8_0.0_1.5"],
         "CurveFaultA":["0.5_0.5_0.0", "1.0_0.1_0.0", "1.0_0.01_1.0", "0.8_0.0_1.5"],
-        "FlatFaultA": ["0.5_0.5_0.0", "1.0_0.1_0.0", "1.0_0.01_1.0", "0.8_0.0_1.5"]
+        "FlatFaultA": ["0.5_0.5_0.0", "1.0_0.1_0.0", "1.0_0.01_1.0", "0.8_0.0_1.5"],
+        "Marmousi2": ["0.5_0.5_0.0", "1.0_0.1_0.0", "1.0_0.01_1.0", "0.8_0.0_1.5"]
       }
     },
     "DDNet70":{
@@ -99,7 +102,23 @@
       "loss_weight":{
         "CurveVelA":[0.5, 0.5],
         "CurveFaultA":[0.5, 0.5],
-        "FlatFaultA":[0.5, 0.5]
+        "FlatFaultA":[0.5, 0.5],
+        "Marmousi2":[0.5, 0.5]
       }
+    },
+    "SeisDeepNET70":{
+        "common":{
+          "learning_rate":0.001,
+          "train_batch_size":120,
+          "test_batch_size":5,
+          "input_dim":[1000,70],
+          "output_dim":[70,70],
+          "in_channel":7,
+          "is_norm_csg":1,
+          "is_norm_vms":1,
+          "is_blur_vms":0,
+          "is_mute_csg":0,
+          "is_read_cont":0
+        }
     }
 }
