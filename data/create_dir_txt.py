@@ -16,7 +16,8 @@ if __name__ == '__main__':
     id_boundary = {
         "FlatFaultA": [96, 108],
         "CurveFaultA": [96, 108],
-        "CurveVelA": [48, 60]
+        "CurveVelA": [48, 60],
+        "Marmousi2_Slice10970": [27, 28]
     }
 
     ids = id_boundary[dataset_name]
@@ -44,47 +45,47 @@ if __name__ == '__main__':
     train_ids = list(np.arange(1, ids[0] + 1))
     test_ids = list(np.arange(ids[0] + 1, ids[1] + 1))
 
-    # Only seismic data and velocity
+    # 1. Only seismic data and velocity
     # print("train")
     # for pair in zip(seismic_dir_list, vmodel_dir_list):
     #     if int(re.findall(r'\d+', pair[0])[0]) in train_ids:
-    #         print(".\data\{}".format(dataset_name) + "\\" + pair[0], end=" ")
+    #         print(".\data\{}".format(dataset_name) + "\\" + pair[0], end="+")
     #         print(".\data\{}".format(dataset_name) + "\\" + pair[1])
     #
     # print("test")
     # for pair in zip(seismic_dir_list, vmodel_dir_list):
     #     if int(re.findall(r'\d+', pair[0])[0]) in test_ids:
-    #         print(".\data\{}".format(dataset_name) + "\\" + pair[0], end=" ")
+    #         print(".\data\{}".format(dataset_name) + "\\" + pair[0], end="+")
     #         print(".\data\{}".format(dataset_name) + "\\" + pair[1])
 
-    # Add contour of velocity mdoel
+    # 2. Add contour of velocity mdoel
     # print("train")
     # for pair in zip(seismic_dir_list, vmodel_dir_list, cvmodel_dir_list):
     #     if int(re.findall(r'\d+', pair[0])[0]) in train_ids:
-    #         print(".\data\{}".format(dataset_name) + "\\" + pair[0], end=" ")
-    #         print(".\data\{}".format(dataset_name) + "\\" + pair[1], end=" ")
+    #         print(".\data\{}".format(dataset_name) + "\\" + pair[0], end="+")
+    #         print(".\data\{}".format(dataset_name) + "\\" + pair[1], end="+")
     #         print(".\data\{}".format(dataset_name) + "\\" + pair[2])
     #
     # print("test")
     # for pair in zip(seismic_dir_list, vmodel_dir_list, cvmodel_dir_list):
     #     if int(re.findall(r'\d+', pair[0])[0]) in test_ids:
-    #         print(".\data\{}".format(dataset_name) + "\\" + pair[0], end=" ")
-    #         print(".\data\{}".format(dataset_name) + "\\" + pair[1], end=" ")
+    #         print(".\data\{}".format(dataset_name) + "\\" + pair[0], end="+")
+    #         print(".\data\{}".format(dataset_name) + "\\" + pair[1], end="+")
     #         print(".\data\{}".format(dataset_name) + "\\" + pair[2])
 
-    # Add contour and low resolution of velocity mdoel
+    # 3.Add contour and low frequency of velocity mdoel
     print("train")
     for pair in zip(seismic_dir_list, vmodel_dir_list, lvmodel_dir_list, cvmodel_dir_list):
         if int(re.findall(r'\d+', pair[0])[0]) in train_ids:
-            print(".\data\{}".format(dataset_name) + "\\" + pair[0], end=" ")
-            print(".\data\{}".format(dataset_name) + "\\" + pair[1], end=" ")
-            print(".\data\{}".format(dataset_name) + "\\" + pair[2], end=" ")
+            print(".\data\{}".format(dataset_name) + "\\" + pair[0], end="+")
+            print(".\data\{}".format(dataset_name) + "\\" + pair[1], end="+")
+            print(".\data\{}".format(dataset_name) + "\\" + pair[2], end="+")
             print(".\data\{}".format(dataset_name) + "\\" + pair[3])
 
     print("test")
     for pair in zip(seismic_dir_list, vmodel_dir_list, lvmodel_dir_list, cvmodel_dir_list):
         if int(re.findall(r'\d+', pair[0])[0]) in test_ids:
-            print(".\data\{}".format(dataset_name) + "\\" + pair[0], end=" ")
-            print(".\data\{}".format(dataset_name) + "\\" + pair[1], end=" ")
-            print(".\data\{}".format(dataset_name) + "\\" + pair[2], end=" ")
+            print(".\data\{}".format(dataset_name) + "\\" + pair[0], end="+")
+            print(".\data\{}".format(dataset_name) + "\\" + pair[1], end="+")
+            print(".\data\{}".format(dataset_name) + "\\" + pair[2], end="+")
             print(".\data\{}".format(dataset_name) + "\\" + pair[3])
