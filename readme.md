@@ -1,18 +1,20 @@
-# Double-resolution full waveform inversion under self-paced learning
+# FSS-FWI: Frequency Scale-Separated FullWaveform Inversion under Cross Self-Paced Learning
 
 **Abstract**  
 
-The advancement of image processing brings light to deep learning full waveform inversion (DL-FWI) of seismic data.
-Existing DL-FWI approaches often suffer from the lack of interpretability and slow converge due to single network, and network parameter fluctuate due to static training control.
-In this paper, we propose a double-resolution inversion network under self-paced learning to handle these issues.
-Regarding the network design, the low-resolution part inverts low-wavenumber background velocity model using a lightweight U-Net-like architecture, while the high-resolution part inverts high-wavenumber details with the help of the background using dense modules and dual decoders.
-Regarding the learning control, a new cross self-paced learning approach enhances the partial constraint minimization of the network.
-This is implemented by applying dynamic parameter strategy to a joint loss function of the network.
+Full waveform inversion (FWI), as a cutting-edge imaging technique in geophysics, is widely used to reconstruct various underground structures.
+Recently, the deep learning full waveform inversion (DL-FWI) has attracted extensive research interest due to its low prediction overhead.
+However, existing DL-FWI approaches struggle to trade off the accuracy of background velocities and geological details.
+In this paper, we propose a low- and high-Frequency Scale-Separated Full Waveform Inversion approach under cross self-paced learning (FSS-FWI).
+The key idea is to invert low-frequency velocities using a lightweight auxiliary network, and high-frequency details using the main network.
+Consequently, the background and details represented by different frequencies are decoupled at the task level to avoid erroneous feature mapping.
+Additionally, the idea of self-paced learning that cross-constrains l2 and perceptual weight is incorporated into the loss function.
+It is convenient to deploy and facilitates the convergence of complex features in multi-constraint environments.
+Experiments are undertaken on three datasets from OpenFWI and a slice dataset from Marmousi II.
+Results show that our approach outperforms state-of-the-art DL-FWI approaches in terms of five metrics.
 
 ---
 
-"forward2openfwi.py" gives our forward simulation process.  
-Our seismic records will be generated through this .py file.  
 
 "fwi_dataset.py" encapsulates the FWI data and their set of related operations.  
 
