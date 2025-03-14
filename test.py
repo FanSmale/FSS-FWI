@@ -87,12 +87,12 @@ class Tester(object):
 
     def save_lowres_inversion_results(self):
         """
-        Saving LResInvNet inversion results to a fixed location
+        Saving LInvNet inversion results to a fixed location
 
         :return:
         """
 
-        save_vm_unit = np.zeros(self.args.vmodel_shape).astype(np.float32)
+        save_vm_unit = np.zeros([self.datasets.data_volume] + self.args.vmodel_shape).astype(np.float32)
 
         for index in range(self.datasets.data_size):
             pre_vmodel, gt_vmodel = self.net_control.network_test(list(self.datasets[index]))
@@ -100,13 +100,46 @@ class Tester(object):
 
             if (index + 1) % self.datasets.data_volume == 0:
                 if self.datasets.is_training:
-                    vmodel_id = (index + 1) // self.datasets.data_volume
+                    vmodel_id = (index + 1) // self.args.train_data_volume
                 else:
-                    vmodel_id = (index + 1) // self.datasets.data_volume + self.args.train_size // self.args.data_volume
+                    vmodel_id = (index + 1) // self.args.test_data_volume + self.args.train_size // self.args.train_data_volume
 
-                save_path = "./data/{}/lvmodel{}.npy".format(self.datasets.dataset_name, vmodel_id)
+                save_path = "L:/My Paper Code/double_res_FWI/data/{}/lvmodel{}.npy".format(self.datasets.dataset_name, vmodel_id)
+                #save_path = "L:/My Paper Code/double_res_FWI/data/Marmousi2_Slice10970/lvmodel{}.npy".format(vmodel_id)
                 print(save_path)
                 np.save(save_path, save_vm_unit)
+
+    def marmousi_test(self):
+
+        from data.slice4marmousi2 import upsample_image, reconstruct_image, reconstruct_image_and_fill_missing_values
+
+        pre_unit140 = np.zeros([self.datasets.data_volume] + self.args.vmodel_shape).astype(np.float32)
+        gt_unit140 = np.zeros([self.datasets.data_volume] + self.args.vmodel_shape).astype(np.float32)
+        crop_size = (140, 140)
+        original_size = (2380, 1400)
+
+        for index in range(self.datasets.data_size):
+
+            pre_vmodel, gt_vmodel = self.net_control.network_test(list(self.datasets[index]))
+
+            minmax_info = self.datasets.maxmin_query[index]
+
+            min_vel, max_vel = minmax_info["vel_min"], minmax_info["vel_max"]
+
+            gt_unit140[index, 0] = minmax_denormalize(gt_vmodel[0][0], vmax=max_vel, vmin=min_vel)
+            pre_unit140[index, 0] = minmax_denormalize(pre_vmodel[0][0], vmax=max_vel, vmin=min_vel)
+
+        gt_upsampled_images = [upsample_image(image, (140, 140)) for image in gt_unit140]
+        gt_reconstructed_image = reconstruct_image(gt_upsampled_images, original_size, crop_size)
+        # np.save("gt_Marmousi2.npy", gt_reconstructed_image)
+        plt.imshow(gt_reconstructed_image)
+        plt.show()
+
+        pre_upsampled_images = [upsample_image(image, (140, 140)) for image in pre_unit140]
+        pre_reconstructed_image = reconstruct_image(pre_upsampled_images, original_size, crop_size)
+        # np.save("pr_{}_Marmousi2.npy".format(self.args.network_name), pre_reconstructed_image)
+        plt.imshow(pre_reconstructed_image)
+        plt.show()
 
     def pain_inversion_result(self, min_velo: int = None, max_velo: int = None):
         """
@@ -158,22 +191,25 @@ if __name__ == '__main__':
     # Testing for VelocityGAN
     # -n {} -net VelocityGAN -nep .\models\{}Model\VelocityGAN_480of480.pkl
 
+    # Testing for SeisDeepNET70
+    # -n {} -net SeisDeepNET70 -nep .\models\{}Model\SeisDeepNET70_200of200.pkl
+
     # Testing for DDNet70
     # -n {} -net DDNet70 -nep .\models\{}Model\DDNet70_120of120.pkl
 
-    # Testing for LResInvNet
-    # -n {} -net LResInvNet -bv -nep .\models\{}Model\LResInvNet_100of100.pkl
+    # Testing for LInvNet
+    # -n {} -net LInvNet -bv -nep .\models\{}Model\LInvNet_100of100.pkl
 
     # Testing for DenseInvNet
-    # -n {} -net DenseInvNet -mc -nep .\models\{}Model\DenseInvNet_120of120.pkl
+    # -n {} -net DenseInvNet -mc -nep .\models\{}Model\[CSPL+DW]DenseInvNet_120of120.pkl
 
     # main
     ds = "CurveVelA"
-    batch_id = 10
-    sample_id = 422
-    multi_or_single = 1
+    batch_id = 0
+    sample_id = 56
+    multi_or_single = 0
     args_str0 = \
-        "-n {} -net DenseInvNet -mc -nep .\models\{}Model\DenseInvNet_120of120.pkl".format(ds, ds)
+        "-n {} -net DenseInvNet -mc -nep .\models\{}Model\[CSPL+DW]DenseInvNet_120of120.pkl".format(ds, ds)
     args_str1 = args_str0 + " -r {}".format(batch_id)
 
     if multi_or_single == 0:
@@ -181,13 +217,16 @@ if __name__ == '__main__':
         temp_tester = Tester(args)
         temp_tester.multi_test()
 
-        # Save the inverted low-resolution velocity model to a fixed path
+        # # Save the inverted low-resolution velocity model to a fixed path.
+        # # (Note that the inverted velocity model saved locally has been normalized.)
         # temp_tester.save_lowres_inversion_results()
+
+        # # View the inversion results of all test samples in the Marmousi slice dataset.
+        # temp_tester.marmousi_test()
     else:
         args = parse_args(args_str1)
         temp_tester = Tester(args)
         temp_tester.single_test(sample_id)
 
-        # Save inversion results for a single sample
-        # np.save(".\paper_show_data\pr_{}_{}_{}_{}.npy"
-        #         .format("VelocityGAN", ds, batch_id, sample_id), temp_tester.pre_vmodel)
+        # # Save inversion results for a single sample
+        # np.save("pr_{}_{}_{}_{}.npy".format("DenseInvNet", ds, batch_id, sample_id), temp_tester.pre_vmodel)

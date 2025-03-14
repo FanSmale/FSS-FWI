@@ -1,7 +1,6 @@
 import time
 import numpy as np
 import warnings
-
 from parse_args import *
 from fwi_dataset import FWIDataset
 from net_control import NetworkControl
@@ -153,6 +152,12 @@ class Trainer(object):
             if temp_epoch < self.args.begin:
                 continue
 
+            # Some approaches set dynamic learning rate
+            if self.args.network_name == "SVIT70":
+                scale = temp_epoch // 20
+                for p in self.net_control.optimizer.param_groups:
+                    p['lr'] = 0.1 * self.args.learning_rate * (10 - scale)
+
             try:
                 self.args.cur_stage = self.args.epoch_checkpoints_list.index(temp_epoch)
             except:
@@ -210,33 +215,36 @@ if __name__ == '__main__':
     # Training for VelocityGAN
     # -n CurveVelA -net VelocityGAN -T -ep 480 -st 12 -V
 
+    # Training for SeisDeepNET70
+    # -n CurveVelA -net SeisDeepNET70 -T -ep 200 -st 20 -V
+
     # Training for DDNet70
     # -n CurveVelA -net DDNet70 -T -st 12 -V
 
-    # Training for LResInvNet
-    # -n CurveVelA -net LResInvNet -T -ep 100 -st 10 -V -bv
+    # Training for LInvNet
+    # -n CurveVelA -net LInvNet -T -ep 100 -st 10 -V -bv
 
-    # Training for DenseInvNet (\alpha = \beta = 0.5, without LPIPS, without DP)
+    # Training for DenseInvNet (\alpha = \beta = 0.5, without LPIPS, without FW)
     # -n CurveVelA -net DenseInvNet -T -st 12 -V -mc
     # -apl -1 -1 -1 -1
     # -pl 0.5_0.5_0.0 0.5_0.5_0.0 0.5_0.5_0.0 0.5_0.5_0.0
 
-    # Training for DenseInvNet (\alpha = \beta = \delta = 0.5, with LPIPS, without DP)
+    # Training for DenseInvNet (\alpha = \beta = \delta = 0.5, with LPIPS, without FW)
     # -n CurveVelA -net DenseInvNet -T -st 12 -V -kw [LPIPS] -mc
     # -apl 1 1 1 1
     # -pl 0.5_0.5_0.5 0.5_0.5_0.5 0.5_0.5_0.5 0.5_0.5_0.5
 
-    # Training for DenseInvNet (with LPIPS, with DP)
-    # -n CurveVelA -net DenseInvNet -T -st 12 -V -kw [LPIPS+DP] -mc
+    # Training for DenseInvNet (with LPIPS, with FW)
+    # -n CurveVelA -net DenseInvNet -T -st 12 -V -kw [LPIPS+DW] -mc
 
-    # Training for DenseInvNet (with CSPL, with DP)
-    # -n CurveVelA -net DenseInvNet -T -st 12 -V -kw [CSPL+DP] -mc -spl
+    # Training for DenseInvNet (with CSPL, with FW)
+    # -n CurveVelA -net DenseInvNet -T -st 12 -V -kw [CSPL+DW] -mc -spl
 
     # Example: Continue training from epoch 70 on the existing network file (.pkl)
-    # -st 24 -beg 70 -nep -spl .\models\CurveFaultAModel\[CSPL+DP]DenseInvNet_70of120.pkl
+    # -st 24 -beg 70 -nep -spl .\models\CurveFaultAModel\[CSPL+DW]DenseInvNet_70of120.pkl
 
     ###############################################################
 
-    args = parse_args("-n CurveVelA -net DenseInvNet -T -st 12 -V -kw [CSPL+DP] -mc -spl")
+    args = parse_args("-n CurveVelA -net DenseInvNet -T -st 12 -V -kw [CSPL+DW] -mc -spl")
     temp_trainer = Trainer(args)
     temp_trainer.multi_epoch_train()

@@ -25,6 +25,7 @@ def minmax_normalize(img: np.ndarray, vmin: float, vmax: float):
     :param vmax:    Maximum values in the image
     :return:        Normalized image
     """
+
     img -= vmin
     img /= (vmax - vmin)
     return img

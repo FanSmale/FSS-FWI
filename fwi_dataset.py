@@ -29,7 +29,7 @@ class FWIDataset(Dataset):
 
         self.shot_num = args.shot_num
         self.data_size = args.train_size if self.is_training else args.test_size
-        self.data_volume = args.data_volume
+        self.data_volume = args.train_data_volume if self.is_training else args.test_data_volume
         self.readtxt_dir = args.readtxt_dir
         self.vmodel_shape = args.vmodel_shape
         self.seismic_shape = args.seismic_shape
@@ -39,7 +39,7 @@ class FWIDataset(Dataset):
         self.data_zip = []
         self.data_order = "sv"
         self.data_path_lst = self.determine_where2read(para_args.read_range)
-        self.dir_num = len(self.data_path_lst[0].split(" "))
+        self.dir_num = len(self.data_path_lst[0].split("+"))
 
     def determine_where2read(self, para_read_range):
         """
@@ -77,7 +77,7 @@ class FWIDataset(Dataset):
         for i in range(self.dir_num):
             self.data_zip.append([])
         for path_zip in self.data_path_lst:
-            for idx, path in enumerate(path_zip.split(" ")):
+            for idx, path in enumerate(path_zip.split("+")):
                 print(path)
                 self.data_zip[idx].append(np.load(path.rstrip('\n')).astype(np.float32))
 

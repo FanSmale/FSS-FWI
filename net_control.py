@@ -13,8 +13,9 @@ from fwi_dataset import FWIDataset
 from networks.InversionNet import InversionNet
 from networks.VelocityGAN import VelocityGAN, Discriminator, WassersteinGP, GeneratorLoss
 from networks.DDNet70 import DDNet70Model, LossDDNet
-from networks.LResInvNet import LResInvNet
+from networks.LInvNet import LInvNet
 from networks.DenseInvNet import DenseInvNet, MixLoss
+from networks.SeisDeepNET70 import SeisDeepNET70
 
 
 class NetworkControl(object):
@@ -65,8 +66,11 @@ class NetworkControl(object):
         elif self.network_name == "DDNet70":
             self.net_model = DDNet70Model(self.in_channel)
             self.criterion = LossDDNet(weights=self.args.loss_weight)
-        elif self.network_name == "LResInvNet":
-            self.net_model = LResInvNet(self.in_channel)
+        elif self.network_name == "LInvNet":
+            self.net_model = LInvNet(self.in_channel)
+            self.criterion = nn.MSELoss()
+        elif self.network_name == "SeisDeepNET70":
+            self.net_model = SeisDeepNET70(self.in_channel)
             self.criterion = nn.MSELoss()
         elif self.network_name == "DenseInvNet":
 
@@ -139,14 +143,6 @@ class NetworkControl(object):
         common_shot_gathers = self.fwi_dataset.data_zip[0]
         velocity_models = self.fwi_dataset.data_zip[1]
 
-        # Obtain the remaining two components of the dataset.
-        # (At present, there are no data preprocessing plans for these two parts.)
-        # temp_indx = self.fwi_dataset.data_order.find('c')
-        # contour_models = self.fwi_dataset.data_zip[temp_indx] if temp_indx != -1 else []
-        #
-        # temp_indx = self.fwi_dataset.data_order.find('l')
-        # lowres_models = self.fwi_dataset.data_zip[temp_indx] if temp_indx != -1 else []
-
         print("· Data preprocessing in progress...")
 
         # Elimination of direct waves from seismic records (generally used for DenseInvNet)
@@ -176,7 +172,7 @@ class NetworkControl(object):
         if self.is_blur_vms:
             for i in range(len(velocity_models)):
                 for j in range(velocity_models[i].shape[0]):
-                    velocity_models[i][j][0] = skimage.filters.gaussian(velocity_models[i][j][0], 60)
+                    velocity_models[i][j][0] = skimage.filters.gaussian(velocity_models[i][j][0], 5)
 
     def get_dataset_loader(self):
         """
@@ -190,7 +186,7 @@ class NetworkControl(object):
 
     def network_train_simple_net(self, para_data_zip: list, epoch_id: int, iteration: int, step: int, all_epoch: int):
         """
-        One training operation for InversionNet, DDNet70 and LResInvNet
+        One training operation for InversionNet, DDNet70 and LInvNet
 
         :param para_data_zip:   Packaged list of data files
         :param epoch_id:        Which epoch is the current training belonging to
@@ -210,7 +206,7 @@ class NetworkControl(object):
 
         self.optimizer.zero_grad()
 
-        if self.network_name == "InversionNet":
+        if self.network_name in ["InversionNet", "LInvNet", "SeisDeepNET70"]:
             pre_velocity_models = self.net_model(data_zip[0])
             loss = self.criterion(pre_velocity_models, data_zip[1])
 
@@ -218,7 +214,7 @@ class NetworkControl(object):
             pre_velocity_models = self.net_model(data_zip[0])
             loss = self.criterion(pre_velocity_models[0], pre_velocity_models[1], data_zip[1], data_zip[2])
 
-        elif self.network_name == "LResInvNet":
+        elif self.network_name == "LInvNet":
             pre_velocity_models = self.net_model(data_zip[0])
             loss = self.criterion(pre_velocity_models, data_zip[1])
 
@@ -234,13 +230,13 @@ class NetworkControl(object):
         self.optimizer.step()
 
         if iteration % self.display_step == 0:
-            print('[{}][{}] Epochs: {}/{}, Iteration: {}/{} --- Training Loss:{:.6f}'
+            print('[{}][{}] Epochs: {}/{}, Iteration: {}/{} --- Training Loss: {:.6f} -- LR: {:.6f}'
                   .format(self.network_name, self.fwi_dataset.dataset_name,
                           epoch_id, all_epoch,
                           iteration, step * all_epoch,
-                          loss.item()))
+                          loss.item(), self.optimizer.param_groups[0]['lr']))
 
-        if self.network_name == "DDNet70":
+        if self.network_name in ["DDNet70", "ABAFWI"]:
             return self.criterion.mse
         else:
             return loss
@@ -406,14 +402,10 @@ class NetworkControl(object):
                 else:
                     print("unknown parameters!")
                     exit(0)
-        if self.network_name == "InversionNet":
-            pre_velocity_models = self.net_model(data_zip[0])
-        elif self.network_name == "VelocityGAN":
+        if self.network_name in ["InversionNet", "VelocityGAN", "LInvNet", "SeisDeepNET70"]:
             pre_velocity_models = self.net_model(data_zip[0])
         elif self.network_name == "DDNet70":
             pre_velocity_models, _ = self.net_model(data_zip[0])
-        elif self.network_name == "LResInvNet":
-            pre_velocity_models = self.net_model(data_zip[0])
         elif self.network_name == "DenseInvNet":
             pre_velocity_models, _ = self.net_model(data_zip[2], data_zip[0])
 

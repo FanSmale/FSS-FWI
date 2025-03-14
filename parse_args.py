@@ -60,7 +60,8 @@ def parse_args(command_string: str):
     parser.add_argument('-vshape', '--vmodel_shape', nargs='+', type=int, default=dset_cfg['vmodel_shape'], help='Dimensions of a velocity model file.')
     parser.add_argument('-tr', '--train_size', default=dset_cfg['train_size'], type=int, help='Number of data pair used for training.')
     parser.add_argument('-te', '--test_size', default=dset_cfg['test_size'], type=int, help='Number of data pair used for testing.')
-    parser.add_argument('-v', '--data_volume', default=dset_cfg['data_volume'], type=int, help='How much data is stored in a data file.')
+    parser.add_argument('-trv', '--train_data_volume', default=dset_cfg['train_data_volume'], type=int, help='How much data is stored in a training data file.')
+    parser.add_argument('-tev', '--test_data_volume', default=dset_cfg['test_data_volume'], type=int, help='How much data is stored in a testing data file.')
     parser.add_argument('-rd', '--readtxt_dir', default=dset_cfg['readtxt_dir'], type=str, help='The location of the txt file that stores the file path.')
     parser.add_argument('-T', '--is_training', action='store_true', help='Determine whether the current data set is used for training or testing.')
     parser.add_argument('-r', '--read_range', nargs='+', type=int, default=0, help='Determine how much data to read into memory.')
@@ -73,7 +74,7 @@ def parse_args(command_string: str):
     parser.add_argument('-beg', '--begin', type=int, default=0, help="Determine the starting epoch of training")
 
     # specific parameters of some networks
-    abbr = {"CurveVelA": "cva", "CurveFaultA": "cfa", "FlatFaultA": "ffa"}
+    abbr = {"CurveVelA": "cva", "CurveFaultA": "cfa", "FlatFaultA": "ffa", "Marmousi2": "m2s"}
     if net_name == "DDNet70":
         command_list += ["-rd", "./configuration/{}_cont.txt".format(abbr[dataset_name])]
         parser.add_argument('-lw', '--loss_weight', nargs='+', type=float, default=net_cfg["loss_weight"][dataset_name], help="Training ratio between main task and sub task.")
